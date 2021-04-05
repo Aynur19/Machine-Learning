@@ -42,3 +42,7 @@
 1. [Binary Classification. Rain in Australia. Perceptron (Github)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification_RainInAustralia_Perceptron.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1H_ypHu4dBrQv79lTEFvPEdXKhhDzOJ5d/view?usp=sharing)
 
 2. [Binary Classification. Rain in Australia. KNN (Github)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification_RainInAustralia_KNN.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1g_7zLYUvGR5C4Rd0UUKFk6Uh3t7fz_IR/view?usp=sharing)
+
+2. Binary Classification. Rain in Australia. SVM (Github)] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Bmy5ZbowsoxAUlTG554YKkxe6cGmxLE8/view?usp=sharing)
+
+2. Binary Classification. Rain in Australia. Logisitic Regression (Github) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1jR_4s4h85UkNc2lol0vwJPE0eHVh53Jx/view?usp=sharing)
