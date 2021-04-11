@@ -39,6 +39,9 @@
 ---
 
 Исходный код:
+1. [Rain in Australia. Data Preprocessing](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RaininAustralia/RainInAustralia_DataPreprocessing.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1OmZrnvnUMpKpafuEY5wGz9P3sdZ2-SL-/view?usp=sharing)
+
+
 1. [Binary Classification. Rain in Australia. Perceptron (Github)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification_RainInAustralia_Perceptron.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1H_ypHu4dBrQv79lTEFvPEdXKhhDzOJ5d/view?usp=sharing)
 
 2. [Binary Classification. Rain in Australia. KNN (Github)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification_RainInAustralia_KNN.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1g_7zLYUvGR5C4Rd0UUKFk6Uh3t7fz_IR/view?usp=sharing)
