@@ -49,3 +49,5 @@
 4. [Rain in Australia. SVM (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_SVM.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1_MjeP75dXKlkjm_GtqBF8EAWRlppi1bd/view?usp=sharing)
 
 5. [Rain in Australia. Logisitic Regression (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_LogisticRegression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1T2BUG42TI6Sm4QU5Bv1ak91TSUICSEyT/view?usp=sharing)
+
+6. [Rain in Australia. SGD (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_SGD.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/16k8OTCMCGRwaYLXFVYEh6CeO5gaOMYUP/view?usp=sharing)
