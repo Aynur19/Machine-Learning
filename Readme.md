@@ -42,10 +42,10 @@
 1. [Rain in Australia. Data Preprocessing (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_DataPreprocessing.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1kthwRTAMnztZe7AO5A_0mPbiqnvILZey/view?usp=sharing)
 
 
-1. [Rain in Australia. Perceptron (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_Perceptron.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1NI1kcL5wVxl4D9PhmaLwWI8eapO5wxSW/view?usp=sharing)
+2. [Rain in Australia. Perceptron (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_Perceptron.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1NI1kcL5wVxl4D9PhmaLwWI8eapO5wxSW/view?usp=sharing)
 
-2. [Binary Classification. Rain in Australia. KNN (Github)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification_RainInAustralia_KNN.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1g_7zLYUvGR5C4Rd0UUKFk6Uh3t7fz_IR/view?usp=sharing)
+3. [Rain in Australia. KNN (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification_RainInAustralia_KNN.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1g_7zLYUvGR5C4Rd0UUKFk6Uh3t7fz_IR/view?usp=sharing)
 
-2. Binary Classification. Rain in Australia. SVM (Github)] [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Bmy5ZbowsoxAUlTG554YKkxe6cGmxLE8/view?usp=sharing)
+4. [Rain in Australia. SVM (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_SVM.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1_MjeP75dXKlkjm_GtqBF8EAWRlppi1bd/view?usp=sharing)
 
-2. Binary Classification. Rain in Australia. Logisitic Regression (Github) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1jR_4s4h85UkNc2lol0vwJPE0eHVh53Jx/view?usp=sharing)
+5. [Rain in Australia. Logisitic Regression (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/RainInAustralia_LogisticRegression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1T2BUG42TI6Sm4QU5Bv1ak91TSUICSEyT/view?usp=sharing)
