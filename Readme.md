@@ -2,3 +2,6 @@
 
 1. [Машинное обучение и анализ данных. Лабораторная работа 1. Бинарная классификация](/Notebooks/BinaryClassification/RainInAustralia/README.md)
 
+
+2. [Машинное обучение и анализ данных. Лабораторная работа 1. Линейная регрессия](/Notebooks/LinearRegression/CarPricePredict/README.md)
+
