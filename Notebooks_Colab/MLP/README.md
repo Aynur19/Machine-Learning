@@ -3,7 +3,7 @@
 
 ---
 
-### MLP MNIST
+### MLP: MNIST
 1. [MLP. MNIST (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks_Colab/MLP/MLP_MNIST.ipynb) 
 2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11Ej63yx62mkyl2TnvwhfEQa-1IC3xOHP?usp=sharing) 
 
@@ -22,7 +22,7 @@
 
 ---
 
-### MLP Fashion MNIST
+### MLP: Fashion MNIST
 
 1. [MLP. Fashion MNIST (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks_Colab/MLP/MLP_Fashion-MNIST.ipynb) 
 2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wWFLQY32ombZ20UYH5TlODpb83-oC7Oo?usp=sharing) 
@@ -43,7 +43,7 @@
 
 ---
 
-### CIFAR-10
+### MLP: CIFAR-10
 
 1. [MLP. CIFAR-10 (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks_Colab/MLP/MLP_CIFAR-10.ipynb) 
 2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SJhO3mL3Cp7NOuc7YEapo9gNOORtmBgN?usp=sharing) 
