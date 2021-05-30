@@ -25,8 +25,9 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jnPanJsQnqo9MNNyF9IQ5hQnKO8QXMkJ?usp=sharing) - предобработка и визуализация данных. Изображения хранятся в папке `img_data_preprocessing`
 
 2. [Car Price Prediction. OLS (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/LinearRegression/CarPricePredict/CarPricePredictiction_OLS.ipynb) 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K3qENecoo8Txv5XQhSGAyaohpVAgi2Uy?usp=sharing) - gрименение модели OLS (метод наименьших квадратов. Изображения хранятся в папке `img_ols`
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K3qENecoo8Txv5XQhSGAyaohpVAgi2Uy?usp=sharing) - gрименение модели OLS (метод наименьших квадратов). Изображения хранятся в папке `img_ols`
 
-
+2. [Car Price Prediction. OLS (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/LinearRegression/CarPricePredict/CarPricePredictiction_KNN.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lxSk75YSpyobGPqyjyE18eBWTjRatobZ?usp=sharing) - gрименение модели KNN (метод ближайших соседей). Изображения хранятся в папке `img_knn`
 
 
