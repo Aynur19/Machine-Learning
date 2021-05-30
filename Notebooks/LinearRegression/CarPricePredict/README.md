@@ -22,6 +22,8 @@
 
 Исходный код:
 1. [Car Price Prediction (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/LinearRegression/CarPricePredict/CarPricePredictiction_DataPreprocessing.ipynb) 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jnPanJsQnqo9MNNyF9IQ5hQnKO8QXMkJ?usp=sharing) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jnPanJsQnqo9MNNyF9IQ5hQnKO8QXMkJ?usp=sharing) - предобработка и визуализация данных. Изображения хранятся в папке `img_data_preprocessing`
+
+
 
 
