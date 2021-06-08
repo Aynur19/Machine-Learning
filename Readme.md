@@ -1,7 +1,5 @@
-## Примеры применения нейронных сетей, машинного обучения для решения различных задач
+## Учебные проекты по машинному обучению и нейроным сетям
 
-1. [Машинное обучение и анализ данных. Лабораторная работа 1. Бинарная классификация](/Notebooks/BinaryClassification/RainInAustralia/README.md)
+1. [Машинное обечение и анализ данных. Бинарная классификация](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/README.md)
 
-
-2. [Машинное обучение и анализ данных. Лабораторная работа 1. Линейная регрессия](/Notebooks/LinearRegression/CarPricePredict/README.md)
 
