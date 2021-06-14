@@ -6,4 +6,4 @@
 
 3. [Машинное обучение и анализ данных. GeoPandas](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/GeoLocation/Readme.md)
 
-
+4. [Машинное обучение и анализ данных. RANSAC](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/RANSAC/Readme.md)
