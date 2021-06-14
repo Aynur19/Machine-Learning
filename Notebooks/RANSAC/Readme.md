@@ -15,7 +15,7 @@
 Результат:
 
 
-3. [RANSAC. Line. (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/GeoLocation/GeoLocation_1.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Som1gE7hdBJzhJw_B5ZlClrYwXpWCU3N?usp=sharing) - применение RANSAC для построение прямой (`y = b + k*x`) с добавлением шума.
+3. [RANSAC. Ellipse. (GitHub)](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/GeoLocation/GeoLocation_1.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LeYfPQNfxN6YFEVw5rPnDuLdwEHvb1AE?usp=sharing) - применение RANSAC для построения эллипса на сгенерированных точках с добавлением шума.
 
 Результат:
 
