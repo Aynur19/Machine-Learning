@@ -285,3 +285,87 @@ class NeuralNetworkMetrics:
     pred_max = np.argmax(pred, axis=1)
     # accurancy = (pred_max == y).mean()
     return pred_max
+
+
+
+# -------------------------------------------------------------------------------------------------------
+# функция построения матрицы ошибок (соответствия)
+def draw_confusion_matrix(df_confusion, title: str, img_dir: str, img_format: str, description: str):
+  fig, ax = plt.subplots(figsize=(12, 6))
+  sns.heatmap(df_confusion, annot=True, cmap="RdYlBu", linewidths=.5, fmt='.2f', ax=ax);
+  props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
+  ax.text(x=1.2, y=0.5, s=description, transform=ax.transAxes, fontsize=12, verticalalignment='bottom', bbox=props)
+
+  plt.title(title)
+  plt.savefig(os.path.join(img_dir, f'{title}{img_format}'), bbox_inches='tight')
+  plt.show()
+
+
+def plot_confusion_matrix(net: NeuralNetwork, x_test, y_test, loss: LossFunction, 
+                          n_batches: int, metrics: NeuralNetworkMetrics, 
+                          db_name: str, img_dir: str, img_format: str, description: str):
+  y_pred = metrics.get_predicts(net, x_test, y_test, loss, n_batches)
+  y_pred =  np.array(y_pred).flatten()
+
+  if not os.path.isdir(img_dir):
+    os.mkdir(img_dir)
+
+  df_y_test = pd.Series(y_test, name='Actual Class')
+  df_y_pred = pd.Series(y_pred, name='Predicted Class')
+
+  df_confusion = pd.crosstab(df_y_test, df_y_pred)
+  title = f'{db_name}. Confussion Matrix (not normalized)'
+  draw_confusion_matrix(df_confusion, title, img_dir, img_format, description)
+  
+  df_confusion = df_confusion / df_confusion.sum(axis=1)
+  title = f'{db_name}. Confussion Matrix (normalized)'
+  draw_confusion_matrix(df_confusion, title, img_dir, img_format, description)
+
+
+
+# функция обучения и построения графика
+def train_and_plot(net: NeuralNetwork, x_train, y_train, x_test, y_test, 
+                   trainer: NeuralNetworkTrainer, n_epoch: int, 
+                   loss: LossFunction, n_batches: int, 
+                   db_name: str, img_dir: str, img_format: str):
+  
+  title = f'{db_name}. MPL Train and Validation'
+  img_name = f'{title}{img_format}'
+
+  train_accurancy, valid_accurancy, train_time \
+        = trainer.train_epoch_by_batches(net, x_train, y_train, x_test, y_test, n_epoch, loss, n_batches)
+  
+  x = train_accurancy[:, 0]
+  y = (train_accurancy[:, 2], valid_accurancy[:, 2])
+
+  description = f'Database: {db_name}\
+  \nLayers: {len(net.layers)}\
+  \nActivation Funcs: {[x.activation_func.func for x in net.layers]}\
+  \nEpoches: {n_epoch}\
+  \nBatches: {n_batches}\
+  \nMini Batch Size: {trainer.mini_batch_size}\
+  \nLearning Rate: {trainer.learning_rate:.3f}\
+  \nLoss Function: {loss.func}\
+  \nTrain Time: {train_time:.3f} sec.\
+  \nFinal Train Loss: {train_accurancy[-1, 1]:.3f}\
+  \nFinal Train Accuracy: {train_accurancy[-1, 2]:.3f}\
+  \nFinal Valid Loss: {valid_accurancy[-1, 1]:.3f}\
+  \nFinal Valid Accuracy: {valid_accurancy[-1, 2]:.3f}'
+
+  fig, ax = plt.subplots(figsize=(10, 8))
+  ax.plot(x, y[0], 'k--', label='training accuracy')
+  ax.plot(x, y[1], 'g-', label='validation accuracy')
+  ax.legend(loc='lower right')
+  ax.set_ylabel('Acurancy')
+  ax.set_xlabel('Epoches')
+  props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
+  ax.text(x=1.2, y=0.5, s=description, transform=ax.transAxes, fontsize=12, verticalalignment='bottom', bbox=props)
+
+  ax.set_title(f'{title}')
+  
+  if not os.path.isdir(img_dir):
+    os.mkdir(img_dir)
+
+  plt.savefig(os.path.join(img_dir, img_name), bbox_inches='tight')
+  plt.show()
+  return description
