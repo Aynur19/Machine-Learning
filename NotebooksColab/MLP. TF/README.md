@@ -7,7 +7,7 @@
 1. [MLP. Tensors (GiHub)](https://github.com/Aynur19/Machine-Learning/blob/main/NotebooksColab/MLP.%20Tensors%20(TensorFlow%20%26%20PyTorch)/MLP.%20Tensors.ipynb)
 
 Результат построения графика ошибок и точности на обучающей и тестовой выборке в процессе обучения:
-![Графики точности и ошибок][https://github.com/Aynur19/Machine-Learning/blob/main/NotebooksColab/MLP.%20Tensors%20(TensorFlow%20%26%20PyTorch)/graphics_tensors/Trainig%20and%20Validation%20(Accurancy%2C%20Loss).png]
+![Графики точности и ошибок](https://github.com/Aynur19/Machine-Learning/blob/main/NotebooksColab/MLP.%20Tensors%20(TensorFlow%20%26%20PyTorch)/graphics_tensors/Trainig%20and%20Validation%20(Accurancy%2C%20Loss).png)
 
 ### Задание 3.
 
