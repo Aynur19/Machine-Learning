@@ -37,7 +37,7 @@
 
 |Algorithm|X scaling|Learning Time|Algorithm accurancy on train|Cross-Validation Time|R2|Variance Score|Max Error|Mean Absolute Error|RMSE|Median Absolute Error|
 |---|---|---|---|---|---|---|---|---|---|---|
-|SVM|Not|1.11 sec.|0.39|3.87 sec.|0.358|0.361|\$34 394.480|\$2 699.884|\$13 219 174.077|\$2 201.854|
+|SVM|Not|1.11 sec.|0.39|3.87 sec.|0.358|0.361|<small>\$34 394.480</small>|\$2 699.884|\$13 219 174.077|\$2 201.854|
 |SVM|StandardScaler|1.10 sec.|0.52|3.86 sec.|0.500|0.505|\$25 335.663|\$2 393.652|\$10 301 248.396|\$1 964.938|
 |SVM|MinMaxScaler|1.01 sec.|0.38|3.81 sec.|0.367|0.373|\$34 583.573|\$2 673.974|\$13 045 473.850|\$2 238.552|
 |SVM|MaxAbsScaler|1.02 sec.|0.38|3.79 sec.|0.367|0.373|\$34 583.573|\$2 673.974|\$13 045 473.850|\$2 238.552|
