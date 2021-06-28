@@ -16,7 +16,7 @@
 
 Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **MNIST**
 
-|Layers /<br> Activation Functions|Loss Function|Epoches <br> Batches <br> Mini Batches Size|Learning <br> Rate|Train <br> Time|Final <br> Train Loss|Final <br> Train Accurancy|Final <br> Valid Loss|Final <br> Valid Accurancy|Best Class /<br>Accurancy|Worst Class / <br> Accurancy|
+|Layers /<br> Activation Functions|Loss Function|Epoches /<br> Batches /<br> Mini Batches Size|Learning Rate|Train Time|Final Train Loss|Final Train Accurancy|Final Valid Loss|Final Valid Accurancy|Best Class / Accurancy|Worst Class / Accurancy|
 |---|---|---|---|---|---|---|---|---|---|---|
 |1/softmax|cross-entropy|30/5/28|0.01|15.188 sec.|0.286|0.921|0.308|0.914|1 / 0.98 <br> 0 / 0.97 <br> 6 / 0.95|5 / 0.86 <br> 3 / 0.87 <br> 8 / 0.88|
 |1/softmax|cross-entropy|30/5/28|0.05|15.361 sec.|0.243|0.932|0.287|0.920|1 / 0.98 <br> 0 / 0.97 <br> 6 / 0.96|3 / 0.87 <br> 5 / 0.87 <br> 8 / 0.87|
