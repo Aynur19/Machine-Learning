@@ -14,7 +14,7 @@
 Исходный код:
 1. [MLP. MNIST (GitHub)](MLP.%20MNIST.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11Ej63yx62mkyl2TnvwhfEQa-1IC3xOHP?usp=sharing) 
 
-Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **MNIST**
+Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **MNIST**:
 
 |Layers/ Activation Functions|Loss Function|Epoches/ Batches/ Mini Batches Size|Learning Rate|Train Time|Final Train Loss|Final Train Accurancy|Final Valid Loss|Final Valid Accurancy|Best Class/ Accurancy|Worst Class/ Accurancy|
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -43,7 +43,7 @@
 Исходный код:
 1. [MLP. Fashion MNIST (GitHub)](MLP.%20Fashion%20MNIST.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SJhO3mL3Cp7NOuc7YEapo9gNOORtmBgN?usp=sharing) 
 
-Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **Fashion MNIST**
+Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **Fashion MNIST**:
 
 |Layers Activation Functions|Loss Function|Epoches/ Batches/ Mini Batches Size|Learning Rate|Train Time|Final Train Loss|Final Train Accurancy|Final Valid Loss|Final Valid Accurancy|Best Class/ Accurancy|Worst Class/ Accurancy|
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -71,31 +71,30 @@
 ---
 
 ### CIFAR-10
+Исходный код:
+1. [MLP. CIFAR-10 (GitHub)](MLP.%20CIFAR-10.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SJhO3mL3Cp7NOuc7YEapo9gNOORtmBgN?usp=sharing) 
 
-1. [MLP. CIFAR-10 (GitHub)](https://github.com/MAILabs-Edu-AI/lab-multi-layered-perceptron-Aynur19/blob/main/MLP/MLP.%20CIFAR-10.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SJhO3mL3Cp7NOuc7YEapo9gNOORtmBgN?usp=sharing) 
+Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **CIFAR-10**:
 
-#### Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **CIFAR-10**
-
-|Color Converting <br> Method|Layers|Activation <br> Functions|Loss Function|Epoches / <br> Batches / <br> Mini Batches Size|Learning <br> Rate|Train <br> Time|Final Train <br> Loss|Final Train <br> Accurancy|Final Valid <br> Loss|Final Valid <br> Accurancy|Best Class / <br> Accurancy|Worst Class / <br> Accurancy|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|AVG RGB|1|softmax|cross-entropy|30/5/32|0.01|34.367 sec.|1.979|0.311|2.023|0.293|1 / 0.60|3 / 0.17 <br> 4 / 0.20 <br> 0, 2 / 0.22|
-|AVG RGB|2|tanh/softmax|cross-entropy|30/5/32|0.01|554.990 sec.|1.638|0.417|1.714|0.387|1 / 0.76 <br> 7 / 0.51|3 / 0.16 <br> 5 / 0.26 <br> 9 / 0.29|
-|AVG RGB|3|tanh/sigmoid/softmax|cross-entropy|30/5/32|0.01|721.926 sec.|1.709|0.397|1.743|0.382|1 / 0.61 <br> 8 / 0.52|3 / 0.21 <br> 0 / 0.26 <br> 2 / 0.27|
+|Color Converting Method|Layers/ Activation Functions|Loss Function|Epoches/ Batches/ Mini Batches Size|Learning Rate|Train Time|Final Train Loss|Final Train Accurancy|Final Valid Loss|Final Valid Accurancy|Best Class/ Accurancy|Worst Class/ Accurancy|
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|AVG RGB|1/softmax|cross-entropy|30/5/32|0.01|34.367 sec.|1.979|0.311|2.023|0.293|1 / 0.60|3 / 0.17 <br> 4 / 0.20 <br> 0, 2 / 0.22|
+|AVG RGB|1/tanh <br> 2/softmax|cross-entropy|30/5/32|0.01|554.990 sec.|1.638|0.417|1.714|0.387|1 / 0.76 <br> 7 / 0.51|3 / 0.16 <br> 5 / 0.26 <br> 9 / 0.29|
+|AVG RGB|1/tanh <br> 2/sigmoid <br> 3/softmax|cross-entropy|30/5/32|0.01|721.926 sec.|1.709|0.397|1.743|0.382|1 / 0.61 <br> 8 / 0.52|3 / 0.21 <br> 0 / 0.26 <br> 2 / 0.27|
 |---|
-|LUMA-REC-601|1|softmax|cross-entropy|30/5/32|0.01|34.762 sec.|1.992|0.307|2.040|0.287|1 / 0.60|3 / 0.18 <br> 0 / 0.19 <br> 4 / 0.20|
-|LUMA-REC-601|2|tanh/softmax|cross-entropy|30/5/32|0.01|589.086 sec.|1.635|0.420|1.717|0.387|1 / 0.74|3 / 0.16 <br> 5 / 0.28 <br> 9 / 0.28|
-|LUMA-REC-601|3|tanh/sigmoid/softmax|cross-entropy|30/5/32|0.01|763.993 sec.|1.721|0.392|1.761|0.376|1 / 0.65 <br> 8 / 0.51|3 / 0.23 <br> 0 / 0.24 <br> 2 / 0.30|
+|LUMA-REC-601|1/softmax|cross-entropy|30/5/32|0.01|34.762 sec.|1.992|0.307|2.040|0.287|1 / 0.60|3 / 0.18 <br> 0 / 0.19 <br> 4 / 0.20|
+|LUMA-REC-601|1/tanh <br> 2/softmax|cross-entropy|30/5/32|0.01|589.086 sec.|1.635|0.420|1.717|0.387|1 / 0.74|3 / 0.16 <br> 5 / 0.28 <br> 9 / 0.28|
+|LUMA-REC-601|1/tanh <br> 2/sigmoid <br> 3/softmax|cross-entropy|30/5/32|0.01|763.993 sec.|1.721|0.392|1.761|0.376|1 / 0.65 <br> 8 / 0.51|3 / 0.23 <br> 0 / 0.24 <br> 2 / 0.30|
 |---|
-|LUMA-REC-709|1|softmax|cross-entropy|30/5/32|0.01|34.863 sec.|1.991|0.307|2.038|0.285|1 / 0.60|1 / 0.60|3 / 0.17 <br> 0 / 0.19 <br> 4 / 0.21|
-|LUMA-REC-709|2|tanh/softmax|cross-entropy|30/5/32|0.01|577.535 sec.|1.630|0.421|1.714|0.390|1 / 0.75 <br> 7 / 0.5|3 / 0.17 <br> 5 / 0.29 <br> 0, 9 / 0.30|
-|LUMA-REC-709|3|tanh/sigmoid/softmax|cross-entropy|30/5/32|0.01|913.480 sec.|1.717|0.395|1.756|0.376|1 / 0.64 <br> 8 / 0.52|3 / 0.23 <br> 0 / 0.24 <br> 5 / 0.26
+|LUMA-REC-709|1/softmax|cross-entropy|30/5/32|0.01|34.863 sec.|1.991|0.307|2.038|0.285|1 / 0.60|1 / 0.60|3 / 0.17 <br> 0 / 0.19 <br> 4 / 0.21|
+|LUMA-REC-709|1/tanh <br> 2/softmax|cross-entropy|30/5/32|0.01|577.535 sec.|1.630|0.421|1.714|0.390|1 / 0.75 <br> 7 / 0.5|3 / 0.17 <br> 5 / 0.29 <br> 0, 9 / 0.30|
+|LUMA-REC-709|1/tanh <br> 2/sigmoid <br> 3/softmax|cross-entropy|30/5/32|0.01|913.480 sec.|1.717|0.395|1.756|0.376|1 / 0.64 <br> 8 / 0.52|3 / 0.23 <br> 0 / 0.24 <br> 5 / 0.26
 
-
-#### Вывод
+Вывод:
 1. На наборе данных **CIFAR-10** простейшая нейронная сеть на основе персептронов уже не способна распознать изображения с хорошей точностью (< 0.42).
 2. При увеличении количества слоев нейронной сети, продолжительность работы возрастает.
 3. Наибольшую точность распознавания получили классы изображений: **1, 7, 8**.
 4. Наименее точно распознавались изображения из классов: **3, 0, 2, 4, 5**
 
 
-Графики (точность на обучающей и тестовой выборках, матрицы ошибок): [MLP. CIFAR-10. Graphics (GitHub)](https://github.com/MAILabs-Edu-AI/lab-multi-layered-perceptron-Aynur19/tree/main/MLP/img_cifar-10)
+Графики (точность на обучающей и тестовой выборках, матрицы ошибок): [MLP. CIFAR-10. Graphics (GitHub)](img_cifar-10/)
