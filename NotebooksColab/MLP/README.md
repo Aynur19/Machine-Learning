@@ -28,46 +28,45 @@
 |1/tanh <br> 2/sigmoid <br> 3/softmax|cross-entropy|30/5/28|0.01|325.371 sec.|0.192|0.945|0.221|0.935|1 / 0.98 <br> 0 / 0.97 <br> 6 / 0.96|5 / 0.88 <br> 3 / 0.90 <br> 9 / 0.91|
 |1/sigmoid <br> 2/tanh <br> 3/softmax|cross-entropy|30/5/28|0.01|330.566 sec.|0.231|0.923|0.260|0.923|1 / 0.98 <br> 0 / 0.97 <br> 6 / 0.96|3 / 0.87 <br> 5 / 0.87 <br> 8 / 0.88|
 
-
-#### Вывод
+Вывод:
 1. На наборе данных простейшая нейронная сеть на основе персептронов способна распознать изображения с довольно высокой точностью (> 0.90).
 2. При увеличении количества слоев нейронной сети, продолжительность работы возрастает.
 3. Наибольшую точность распознавания получили классы изображений: **0, 1, 6**.
 4. Наименее точно распознавались изображения из классов: **3, 5, 8**
 
 
-Графики (точность на обучающей и тестовой выборках, матрицы ошибок): [MLP. MNIST. Graphics (GitHub)](https://github.com/MAILabs-Edu-AI/lab-multi-layered-perceptron-Aynur19/tree/main/MLP/img_mnist)
+Графики (точность на обучающей и тестовой выборках, матрицы ошибок): [MLP. MNIST. Graphics (GitHub)](img_mnist/)
 
 ---
 
 ### MLP Fashion MNIST
+Исходный код:
+1. [MLP. Fashion MNIST (GitHub)](MLP.%20Fashion%20MNIST.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SJhO3mL3Cp7NOuc7YEapo9gNOORtmBgN?usp=sharing) 
 
-1. [MLP. Fashion MNIST (GitHub)](https://github.com/MAILabs-Edu-AI/lab-multi-layered-perceptron-Aynur19/blob/main/MLP/MLP.%20Fashion%20MNIST.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SJhO3mL3Cp7NOuc7YEapo9gNOORtmBgN?usp=sharing) 
-
-#### Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **Fashion MNIST**
+Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **Fashion MNIST**
 
 |Layers|Activation Functions|Loss Function|Epoches/Batches/Mini Batches Size|Learning Rate|Train Time|Final Train Loss|Final Train Accurancy|Final Valid Loss|Final Valid Accurancy|Best Class/Accurancy|Worst Class/Accurancy|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|1|softmax|cross-entropy|30/5/28|0.01|36.532 sec.|0.405|0.862|0.449|0.842|1 / 0.95 <br> 9 / 0.95 <br> 8 / 0.94|6 / 0.55 <br> 2 / 0.73 <br> 4 / 0.77|
-|1|softmax|cross-entropy|30/5/28|0.05|28.286 sec.|0.386|0.864|0.454|0.839|1 / 0.96 <br> 8 / 0.95 <br> 9 / 0.94|2 / 0.62 <br> 6 / 0.66 <br> 4 / 0.77|
-|1|softmax|cross-entropy|30/5/28|0.1|27.042 sec.|0.427|0.85|0.513|0.822|1 / 0.95 <br> 7 / 0.95 <br> 8, 9 / 0.94|2 / 0.47 <br> 6 / 0.73 <br> 4 / 0.77|
+|1/softmax|cross-entropy|30/5/28|0.01|36.532 sec.|0.405|0.862|0.449|0.842|1 / 0.95 <br> 9 / 0.95 <br> 8 / 0.94|6 / 0.55 <br> 2 / 0.73 <br> 4 / 0.77|
+|1/softmax|cross-entropy|30/5/28|0.05|28.286 sec.|0.386|0.864|0.454|0.839|1 / 0.96 <br> 8 / 0.95 <br> 9 / 0.94|2 / 0.62 <br> 6 / 0.66 <br> 4 / 0.77|
+|1/softmax|cross-entropy|30/5/28|0.1|27.042 sec.|0.427|0.85|0.513|0.822|1 / 0.95 <br> 7 / 0.95 <br> 8, 9 / 0.94|2 / 0.47 <br> 6 / 0.73 <br> 4 / 0.77|
 |---|
-|2|tanh/softmax|cross-entropy|30/5/28|0.01|524.747 sec.|0.292|0.896|0.362|0.872|8 / 0.97 <br> 1 / 0.96 <br> 9 / 0.95|6 / 0.62 <br> 2 / 0.78 <br> 4 / 0.82|
-|2|sigmoid/softmax|cross-entropy|30/5/28|0.01|491.887 sec.|0.395|0.861|0.435|0.843|1 / 0.95 <br> 8 / 0.95 <br> 9 / 0.94|6 / 0.53 <br> 2 / 0.73 <br> 4 / 0.78|
+|1/tanh <br> 2/softmax|cross-entropy|30/5/28|0.01|524.747 sec.|0.292|0.896|0.362|0.872|8 / 0.97 <br> 1 / 0.96 <br> 9 / 0.95|6 / 0.62 <br> 2 / 0.78 <br> 4 / 0.82|
+|1/sigmoid <br> 2/softmax|cross-entropy|30/5/28|0.01|491.887 sec.|0.395|0.861|0.435|0.843|1 / 0.95 <br> 8 / 0.95 <br> 9 / 0.94|6 / 0.53 <br> 2 / 0.73 <br> 4 / 0.78|
 |---|
-|3|tanh/sigmoid/softmax|cross-entropy|30/5/28|0.01|678.361 sec.|0.321|0.885|0.379|0.866|8 / 0.97 <br> 1 / 0.96 <br> 9 / 0.95|6 / 0.58 <br> 2 / 0.77 <br> 4 / 0.81|
-|3|sigmoid/tanh/softmax|cross-entropy|30/5/28|0.01|705.662 sec.|0.352|0.874|0.404|0.855|8 / 0.96 <br> 1 / 0.95 <br> 7, 9 / 0.94|6 / 0.58 <br> 2 / 0.72 <br> 4 / 0.81|
+|1/tanh <br> 2/sigmoid <br> 3/softmax|cross-entropy|30/5/28|0.01|678.361 sec.|0.321|0.885|0.379|0.866|8 / 0.97 <br> 1 / 0.96 <br> 9 / 0.95|6 / 0.58 <br> 2 / 0.77 <br> 4 / 0.81|
+|1/sigmoid <br> 2/tanh <br> 3/softmax|cross-entropy|30/5/28|0.01|705.662 sec.|0.352|0.874|0.404|0.855|8 / 0.96 <br> 1 / 0.95 <br> 7, 9 / 0.94|6 / 0.58 <br> 2 / 0.72 <br> 4 / 0.81|
 |3|tanh/tanh/softmax|cross-entropy|30/5/28|0.01|748.174 sec.|0.251|0.909|0.338|0.88|8 / 0.97 <br> 1, 7 / 0.96 <br> 9 / 0.95|6 / 0.64 <br> 2 / 0.78 <br> 4 / 0.82|
 |3|sigmoid/sigmoid/softmax|cross-entropy|30/5/28|0.01|655.507 sec.|0.418|0.852|0.458|0.835|1 / 0.95 <br> 8 / 0.95 <br> 9 / 0.94|6 / 0.50 <br> 2 / 0.73 <br> 4 / 0.78|
 
-#### Вывод
+Вывод:
 1. На наборе данных простейшая нейронная сеть на основе персептронов способна распознать изображения с хорошей точностью (> 0.82).
 2. При увеличении количества слоев нейронной сети, продолжительность работы возрастает.
 3. Наибольшую точность распознавания получили классы изображений: **1, 8, 9**.
 4. Наименее точно распознавались изображения из классов: **2, 4, 6**
 
 
-Графики (точность на обучающей и тестовой выборках, матрицы ошибок): [MLP. Fashion MNIST. Graphics (GitHub)](https://github.com/MAILabs-Edu-AI/lab-multi-layered-perceptron-Aynur19/tree/main/MLP/img_fashion-mnist)
+Графики (точность на обучающей и тестовой выборках, матрицы ошибок): [MLP. Fashion MNIST. Graphics (GitHub)](img_fashion-mnist/)
 
 ---
 
