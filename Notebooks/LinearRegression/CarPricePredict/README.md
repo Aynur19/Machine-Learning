@@ -33,8 +33,8 @@
 **KNN params:** *algorithm='brute', leaf_size=15, metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=40, p=1, weights='uniform'*
 
 
+<small><p>
 
-<small>
 
 <small>
 
@@ -84,8 +84,9 @@
 
 </small>
 
-</small>
 
+
+</p></small>
 
 
 ## Выводы:
