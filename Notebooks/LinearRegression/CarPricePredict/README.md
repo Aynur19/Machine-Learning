@@ -33,8 +33,8 @@
 **KNN params:** *algorithm='brute', leaf_size=15, metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=40, p=1, weights='uniform'*
 
 
-<sub>
 <sup>
+<sub>
 
 |Algorithm|X scaling|Learning Time|Algorithm accurancy on train|Cross-Validation Time|R2|Variance Score|Max Error|Mean Absolute Error|RMSE|Median Absolute Error|
 |---|---|---|---|---|---|---|---|---|---|---|
