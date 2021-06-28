@@ -1,10 +1,11 @@
 # Учебные проекты по машинному обучению и нейроным сетям
 
 ## Машинное обучение и анализ данных
-1. [Бинарная классификация](Notebooks/BinaryClassification/RainInAustralia/README.md)
+1. [Бинарная классификация](Notebooks/BinaryClassification/RainInAustralia/README.md) - применение алгоритмов машинного обучения в рамках решения задачи бинарной классификации.
+2. [Линейная регрессия](Notebooks/LinearRegression/CarPricePredict/README.md) - применение алгоритмов машинного обучения в рамках решения задачи линейной регрессии.
+3. [GeoPandas](Notebooks/GeoLocation/Readme.md) - применение инструментов **GeoPandas** и **Folium** для анализа и визуализации данных, связанных с навигацией и маршрутизацией.
+4. [RANSAC](Notebooks/RANSAC/Readme.md) - реализация **RANSAC** алгоритмов для получения различных геометрических фигур из набора сгенерированных точек с добавлением шума. 
 
-2. [Линейная регрессия](Notebooks/LinearRegression/CarPricePredict/README.md)
 
-3. [GeoPandas](Notebooks/GeoLocation/Readme.md)
-
-4. [RANSAC](Notebooks/RANSAC/Readme.md)
+## Нейронные сети
+1. [MLP (Multilayer Perceptron)]()
