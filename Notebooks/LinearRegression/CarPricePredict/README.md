@@ -33,9 +33,8 @@
 **KNN params:** *algorithm='brute', leaf_size=15, metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=40, p=1, weights='uniform'*
 
 
-<small>
 
-|Algorithm|X scaling|Learning Time|Algorithm accurancy on train|Cross-Validation Time|R2|Variance Score|Max Error|Mean Absolute Error|RMSE|Median Absolute Error|
+|<small>Algorithm</small>|<small>X scaling</small>|<small>Learning Time</small>|<small>Algorithm accurancy on train</small>|<small>Cross-Validation Time</small>|<small>R2</small>|<small>Variance Score</small>|<small>Max Error</small>|<small>Mean Absolute Error</small>|<small>RMSE</small>|<small>Median Absolute Error</small>|
 |---|---|---|---|---|---|---|---|---|---|---|
 |SVM|Not|1.11 sec.|0.39|3.87 sec.|0.358|0.361|<small>\$34 394.480</small>|\$2 699.884|\$13 219 174.077|\$2 201.854|
 |SVM|StandardScaler|1.10 sec.|0.52|3.86 sec.|0.500|0.505|\$25 335.663|\$2 393.652|\$10 301 248.396|\$1 964.938|
@@ -78,7 +77,7 @@
 |KNN|MaxAbsScaler|0.00 sec.|0.58|0.68 sec.|0.535|0.536|\$31 424.825|\$2 242.271|\$9 581 335.032|\$1 738.850|
 |KNN|RobustScaler|0.01 sec.|0.66|0.73 sec.|0.601|0.603|\$30 187.200|\$2 042.723|\$8 212 773.219|\$1 608.188|
 |KNN|Normalizer|0.00 sec.|0.77|0.69 sec.|0.692|0.700|\$32 514.800|\$1 578.972|\$6 339 702.173|\$1 075.925|
-</small>
+</sup></sub>
 
 ## Выводы:
 1. Наиболее лучший результат показал алгоритмы дерева решений и метода ближайших соседей
