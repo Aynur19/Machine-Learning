@@ -80,8 +80,8 @@
 
 **Результаты**:
 
-|№|Dataset Split Variant|Epoches/ <br>Batch Size|Layers|Optimizer|Learning Rate|Loss Function|Final Train Accuracy|Final Valid Accuracy|Final Train Loss|Final Valid Loss|
-|---|---|---|---|---|---|---|---|---|---|---|
+|№|Dataset Split Variant|Layers|Final Train Accuracy|Final Valid Accuracy|Final Train Loss|Final Valid Loss|
+|---|---|---|---|---|---|---|
 |1|50%/50%|Conv2D(1024,"tanh")<br>MaxPooling2D(512)<br>Dense(512,"relu")<br>Dense(3)|100.00%|79.17%|0.019|0.607|
 |2|50%/50%|Conv2D(1024,"sigmoid")<br>MaxPooling2D(512)<br>Dense(512,"relu")<br>Dense(3)|53.33%|49.68%|1.041|1.085|
 |3|50%/50%|Conv2D(1024,"tanh")<br>MaxPooling2D(512)<br>Dense(512,"softmax")<br>Dense(3,"softmax")|66.33%|50.00%|0.816|1.016|
