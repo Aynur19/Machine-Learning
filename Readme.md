@@ -8,4 +8,4 @@
 
 
 ## Нейронные сети
-1. [MLP (Multilayer Perceptron)]()
+1. [MLP (Multilayer Perceptron)](Notebooks/MLP/README.md) - реализация многослойного персептрона и его применение в рамках задачи классификации изображений из наборов данных **MNIST**, **Fashion MNIST** и **CIFAR-10**.
