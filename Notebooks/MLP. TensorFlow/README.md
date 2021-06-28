@@ -21,13 +21,12 @@
 
 Результаты моделей нейронных сетей с различными параметрами при работе с набором данных **MNIST**
 
-|№|Epoches/ Batch Size|Layers|Optimizer|Learning Rate|Loss Function|Final Train Accuracy|Final Valid Accuracy|Final Train Loss|Final Valid Loss|
+|№|Epoches/ Batch Size|Layers Descriptions|Optimizer|Learning Rate|Loss Function|Final Train Accuracy|Final Valid Accuracy|Final Train Loss|Final Valid Loss|
 |---|---|---|---|---|---|---|---|---|---|
-|0|15 / 128|Flatten()<br>Dense(784, "tanh")<br>Dense(196, "sigmoid")<br>Dense(49, "relu")<br>Dense(10, "softmax").	|Adam|0.001|Categorical Crossentropy|99.83%|97.65%|0.006|0.098|
-|1|15 / 128|Flatten()<br>Dense(784, "relu")<br>Dense(196, "relu")<br>Dense(49, "relu")<br>Dense(10, "softmax")	|Adam|0.001|Categorical Crossentropy|99.74%|97.67%|0.008|0.118|
-|2|15 / 128|Flatten()<br>Dense(1024, "sigmoid")<br>Dense(256, "tanh")<br>Dense(10, "softmax")	|Adam|0.001|Categorical Crossentropy|99.71%|97.32%|0.011|0.099|
-|3|15 / 128|Flatten()<br>Dense(784, "relu")<br>Dense(256, "sigmoid")<br>Dense(100, "tanh")<br>Dense(16, "relu")<br>Dense(10, "softmax"	|Adam|0.001|Categorical Crossentropy|99.78%|97.64%|0.008|0.111|
-
+|0|15 / 128|Flatten()<br>Dense(784,"tanh")<br>Dense(196,"sigmoid")<br>Dense(49,"relu")<br>Dense(10,"softmax")|Adam|0.001|Categorical Crossentropy|99.83%|97.65%|0.006|0.098|
+|1|15 / 128|Flatten()<br>Dense(784,"relu")<br>Dense(196,"relu")<br>Dense(49,"relu")<br>Dense(10,"softmax")|Adam|0.001|Categorical Crossentropy|99.74%|97.67%|0.008|0.118|
+|2|15 / 128|Flatten()<br>Dense(1024,"sigmoid")<br>Dense(256,"tanh")<br>Dense(10,"softmax")|Adam|0.001|Categorical Crossentropy|99.71%|97.32%|0.011|0.099|
+|3|15 / 128|Flatten()<br>Dense(784,"relu")<br>Dense(256,"sigmoid")<br>Dense(100,"tanh")<br>Dense(16,"relu")<br>Dense(10,"softmax")|Adam|0.001|Categorical Crossentropy|99.78%|97.64%|0.008|0.111|
 
 ### Вывод
 1. **Keras** - удобный инструмент для быстрого построения модели нейронной сети.
