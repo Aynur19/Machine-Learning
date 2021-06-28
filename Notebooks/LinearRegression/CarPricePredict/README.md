@@ -34,6 +34,8 @@
 
 ---
 
+<small>
+
 |Algorithm|X scaling|Learning Time|Algorithm accurancy on train|Cross-Validation Time|R2|Variance Score|Max Error|Mean Absolute Error|RMSE|Median Absolute Error|
 |---|---|---|---|---|---|---|---|---|---|---|
 |SVM|Not|1.11 sec.|0.39|3.87 sec.|0.358|0.361|\$34 394.480|\$2 699.884|\$13 219 174.077|\$2 201.854|
@@ -49,28 +51,28 @@
 |Logistic Regression|MaxAbsScaler|15.03 sec.|0.14|54.91 sec.|0.176|0.177|\$35 200.000|\$2 947.653|\$16 961 936.665|\$2 105.000|
 |Logistic Regression|RobustScaler|15.33 sec.|0.16|50.81 sec.|0.451|0.452|\$35 200.000|\$2 260.847|\$11 307 884.165|\$1 529.000|
 |Logistic Regression|Normalizer|9.39 sec.|0.02|30.54 sec.|-0.106|0.112|\$34 600.000|\$3 785.862|\$22 774 554.509|$3 500.500|
-|
+|---|
 |Decision Tree|Not|0.01 sec.|0.81|0.04 sec.|0.734|0.734|\$30 361.315|\$1 598.146|\$5 484 648.943|\$1 186.769|
 |Decision Tree|StandardScaler|0.02 sec.|0.81|0.05 sec.|0.734|0.734|\$30 361.315|\$1 598.146|\$5 484 648.943|\$1 186.769|
 |Decision Tree|MinMaxScaler|0.01 sec.|0.81|0.04 sec.|0.734|0.734|\$30 361.315|\$1 598.146|\$5 484 648.943|\$1 186.769|
 |Decision Tree|MaxAbsScaler|0.01 sec.|0.81|0.05 sec.|0.734|0.734|\$30 361.315|\$1 598.146|\$5 484 648.943|\$1 186.769|
 |Decision Tree|RobustScaler|0.02 sec.|0.81|0.12 sec.|0.734|0.734|\$30 361.315|\$1 598.146|\$5 484 648.943|\$ 1186.769|
 |Decision Tree|Normalizer|0.01 sec.|0.81|0.06 sec.|0.729|0.729|\$21 675.000|\$1 635.286|\$5 591 493.814|\$1 140.812|
-|
+|---|
 |SGD Regressor|Not|0.05 sec.|not valid|0.28 sec.|not valid|not valid|not valid|not valid|not valid|not valid|
 |SGD Regressor|StandardScaler|0.03 sec.|not valid|0.16 sec.|not valid|not valid|not valid|not valid|not valid|not valid|
 |SGD Regressor|MinMaxScaler|0.08 sec.|0.67|0.66 sec.|0.629|0.629|\$30 392.142|\$2 004.298|\$7 638 178.520|\$1 616.232|
 |SGD Regressor|MaxAbsScaler|0.08 sec.|0.67|0.65 sec.|0.629|0.629|\$30 392.142|\$2 004.298|\$7 638 178.520|\$1 616.232|
 |SGD Regressor|RobustScaler|42.10 sec.|0.67|119.51 sec.|0.631|0.631|\$29 485.324|\$2 002.934|\$7 591 156.166|\$1 614.058|
 |SGD Regressor|Normalizer|56.07 sec.|0.24|219.32 sec.|0.204|0.205|\$37 124.820|\$3 183.322|\$16 388 351.287|\$2 928.496|
-|
+|---|
 |Linear Regression|Not|0.03 sec.|0.67|0.04 sec.|0.629|0.630|\$29 416.336|\$2 003.556|\$7 630 586.803|\$1 611.409|
 |Linear Regression|StandardScaler|0.02 sec.|0.67|0.09 sec.|not valid|not valid|not valid|not valid|not valid|\$1 622.129|
 |Linear Regression|MinMaxScaler|0.01 sec.|0.67|0.05 sec.|not valid|not valid|not valid|not valid|not valid|\$1 615.000|
 |Linear Regression|MaxAbsScaler|0.01 sec.|0.67|0.08 sec.|not valid|not valid|not valid|not valid|not valid|\$1 624.000|
 |Linear Regression|RobustScaler|0.02 sec.|0.67|0.15 sec.|0.629|0.630|\$29 416.336|\$2 003.556|\$7 630 586.803|\$1 611.409|
 |Linear Regression|Normalizer|0.01 sec.|0.25|0.04 sec.|not valid|not valid|not valid|not valid|not valid|\$2 900.350|
-|
+|---|
 |KNN|Not|0.00 sec.|0.55|0.72 sec.|0.466|0.466|\$35 663.550|\$2 378.508|\$11 000 064.102|\$1 891.488|
 |KNN|StandardScaler|0.01 sec.|0.57|0.69 sec.|0.531|0.534|\$31 372.725|\$2 290.944|\$9 654 486.517|\$1 864.137|
 |KNN|MinMaxScaler|0.00 sec.|0.58|0.73 sec.|0.535|0.536|\$31 424.825|\$2 242.302|\$9 581 521.116|\$1 738.850|
@@ -78,6 +80,7 @@
 |KNN|RobustScaler|0.01 sec.|0.66|0.73 sec.|0.601|0.603|\$30 187.200|\$2 042.723|\$8 212 773.219|\$1 608.188|
 |KNN|Normalizer|0.00 sec.|0.77|0.69 sec.|0.692|0.700|\$32 514.800|\$1 578.972|\$6 339 702.173|\$1 075.925|
 
+</small>
 ---
 
 ## Выводы:
