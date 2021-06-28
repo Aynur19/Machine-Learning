@@ -1,9 +1,10 @@
-## Учебные проекты по машинному обучению и нейроным сетям
+# Учебные проекты по машинному обучению и нейроным сетям
 
-1. [Машинное обечение и анализ данных. Бинарная классификация](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/BinaryClassification/RainInAustralia/README.md)
+## Машинное обучение и анализ данных
+1. [Бинарная классификация](Notebooks/BinaryClassification/RainInAustralia/README.md)
 
-2. [Машинное обучение и анализ данных. Линейная регрессия](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/LinearRegression/CarPricePredict/README.md)
+2. [Линейная регрессия](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/LinearRegression/CarPricePredict/README.md)
 
-3. [Машинное обучение и анализ данных. GeoPandas](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/GeoLocation/Readme.md)
+3. [GeoPandas](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/GeoLocation/Readme.md)
 
-4. [Машинное обучение и анализ данных. RANSAC](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/RANSAC/Readme.md)
+4. [RANSAC](https://github.com/Aynur19/Machine-Learning/blob/main/Notebooks/RANSAC/Readme.md)
