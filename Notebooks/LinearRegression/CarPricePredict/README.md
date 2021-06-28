@@ -33,9 +33,9 @@
 **KNN params:** *algorithm='brute', leaf_size=15, metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=40, p=1, weights='uniform'*
 
 
-<span style="font-size:small;">
+<span style="font-size:10px;">
 
-|Algorithm|X scaling|Learning Time|Algorithm accurancy on train|Cross-Validation Time|R2|Variance Score|Max Error|Mean Absolute Error|RMSE|Median Absolute Error|
+|Algorithm|X scaling|Learning Time|Algorithm <br> accurancy on train|Cross-Validation <br> Time|R2|Variance <br> Score|Max Error|Mean Absolute <br> Error|RMSE|Median Absolute <br> Error|
 |---|---|---|---|---|---|---|---|---|---|---|
 |SVM|Not|1.11 sec.|0.39|3.87 sec.|0.358|0.361|<small>\$34 394.480</small>|\$2 699.884|\$13 219 174.077|\$2 201.854|
 |SVM|StandardScaler|1.10 sec.|0.52|3.86 sec.|0.500|0.505|\$25 335.663|\$2 393.652|\$10 301 248.396|\$1 964.938|
